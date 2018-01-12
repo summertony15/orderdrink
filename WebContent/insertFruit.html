@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert Fruit</title>
+</head>
+<body bgcolor="#63808F" style = "font-family: verdana; font-size: 120%;">
+
+<form action = "insertFruit.jsp" method="POST">
+<fieldset>
+<legend>新增水果品項:</legend>
+Fruit name：<input type="text" name="fruit_name" size="20" ><br><br>
+Fruit price (NTD): <input type="text" name="fruit_price" size="20">
+
+<input type="submit" value="送出" >
+<input type="button" value="庫存" style="font-family: verdana; font-size: 120%;"
+		onclick="self.location.href='inventoryview.jsp'" />
+		</fieldset>
+</form>
+</body>
+</html>
